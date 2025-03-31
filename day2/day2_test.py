@@ -31,7 +31,7 @@ def test_parse_input(mock_file_with_multiple_lines: Callable):
 def test_incorrect_material_type_raises_error(
     material: Any, mock_file_with_multiple_lines: Callable
 ):
-    # TODO - add type error exception
+
     # Arrange
     mock_file_with_multiple_lines()
 
